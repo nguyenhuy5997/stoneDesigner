@@ -1,0 +1,6 @@
+<window name="WSetting">
+    <edit name="user_time_edit" x="466" y="95" w="288" h="62" auto_fix="true" min="0" max="1024" step="2" tips="Please enter time as format" input_type="text" style:normal:font_size="23" style:normal:text_align_h="center"/>
+    <label name="label2" x="469" y="52" w="284" h="43" text="Y-MM-DD HH:MM:SS" style:normal:font_size="23"/>
+    <label name="label_time_validation" x="469" y="157" w="287" h="28" style:normal:text_align_h="center"/>
+    <button name="button2" x="34" y="45" w="101" h="57" text="Back Home" enable_click="true" feedback="true" function="home_window"/>
+</window>

@@ -1,0 +1,25 @@
+<kb_uint name="kb_uint" x="0" y="b" w="100%" h="40%" theme="keyboard">
+    <view name="candidates" x="0" y="0" w="100%" h="15%">
+        <candidates x="0" y="0" w="100%" h="100%" name="candidates2"/>
+        <button name="close" x="r" y="0" w="32" h="100%" text="X" style="close"/>
+    </view>
+    <pages name="panel" x="0" y="b" w="100%" h="-16%" active="0">
+        <clip_view name="uint" x="0" y="0" w="100%" h="100%">
+            <view x="0" y="0" w="75%" h="100%" children_layout="default(r=4,c=3)" name="view25">
+                <button repeat="300" name="1" text="1"/>
+                <button repeat="300" name="2" text="2"/>
+                <button repeat="300" name="3" text="3"/>
+                <button repeat="300" name="4" text="4"/>
+                <button repeat="300" name="5" text="5"/>
+                <button repeat="300" name="6" text="6"/>
+                <button repeat="300" name="7" text="7"/>
+                <button repeat="300" name="8" text="8"/>
+                <button repeat="300" name="9" text="9"/>
+                <button repeat="300" name="+" text="+"/>
+                <button repeat="300" name="0" text="0"/>
+                <button repeat="300" name="key:backspace" text="backspace" style="backspace"/>
+            </view>
+            <button repeat="300" x="75%" y="0" w="25%" h="100%" name="action" text="return" style="return" text_disable="true"/>
+        </clip_view>
+    </pages>
+</kb_uint>

@@ -1,0 +1,26 @@
+<kb_phone name="kb_phone" x="0" y="b" w="100%" h="40%" theme="keyboard">
+    <view name="candidates" x="0" y="0" w="100%" h="15%">
+        <candidates x="0" y="0" w="100%" h="100%" name="candidates3"/>
+        <button repeat="300" name="key:backspace" x="r:32" y="0" w="32" h="100%" text="backspace" style="phone_backspace"/>
+        <button name="close" x="r" y="0" w="32" h="100%" text="X" style="close"/>
+    </view>
+    <pages name="panel" x="0" y="b" w="100%" h="85%" active="0">
+        <clip_view name="phone" x="0" y="0" w="100%" h="100%">
+            <view x="0" y="0" w="100%" h="80%" children_layout="default(r=4,c=3)" name="view26">
+                <button repeat="300" name="1" text="1"/>
+                <button repeat="300" name="2" text="2"/>
+                <button repeat="300" name="3" text="3"/>
+                <button repeat="300" name="4" text="4"/>
+                <button repeat="300" name="5" text="5"/>
+                <button repeat="300" name="6" text="6"/>
+                <button repeat="300" name="7" text="7"/>
+                <button repeat="300" name="8" text="8"/>
+                <button repeat="300" name="9" text="9"/>
+                <button repeat="300" name="*" text="*"/>
+                <button repeat="300" name="0" text="0"/>
+                <button repeat="300" name="#" text="#"/>
+            </view>
+            <button repeat="300" x="0" y="b" w="100%" h="20%" name="action" text="return" style="return" text_disable="true"/>
+        </clip_view>
+    </pages>
+</kb_phone>

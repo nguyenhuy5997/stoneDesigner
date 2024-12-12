@@ -1,0 +1,13 @@
+{
+    "baud_rate" : 115200,
+    "brightness" : 100,
+    "lcd_rotation" : 0,
+    "buzzer_enable" : true,
+    "boot_buzzer_enable" : true,
+    "touch_enable" : true,
+    "screen_saver_enable" : false,
+    "screen_saver_page" : "",
+    "screen_saver_delay_time" : 0,
+    "screen_saver_min_brightness" : 0,
+    "screen_saver_max_brightness" : 0
+}
