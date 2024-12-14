@@ -1,5 +1,5 @@
 {
-    "baud_rate" : 115200,
+    "baud_rate" : 57600,
     "brightness" : 100,
     "lcd_rotation" : 0,
     "buzzer_enable" : true,
